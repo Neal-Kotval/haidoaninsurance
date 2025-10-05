@@ -1,0 +1,9 @@
+export default function Footer() {
+  return (
+    <footer className="bg-gray-800 text-white mt-12">
+      <div className="container mx-auto p-4 text-center">
+        &copy; {new Date().getFullYear()} Haidoan Financial Services. All rights reserved.
+      </div>
+    </footer>
+  );
+}

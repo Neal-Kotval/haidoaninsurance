@@ -1,0 +1,24 @@
+<svg viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <!-- <rect width="300" height="120" fill="#ffffff"/> -->
+  
+
+  <!-- Main text -->
+  <text x="150" y="70" 
+        font-family="Arial, sans-serif" 
+        font-size="42" 
+        font-weight="700" 
+        fill="#0c0c52" 
+        text-anchor="middle">
+    HAI DOAN
+  </text>
+  
+  <!-- Accent line underneath -->
+  <line x1="70" y1="85" x2="230" y2="85" 
+        stroke="#0c0c52" 
+        stroke-width="2"/>
+  
+  <!-- Small decorative dots -->
+  <circle cx="65" cy="85" r="3" fill="#0c0c52"/>
+  <circle cx="235" cy="85" r="3" fill="#0c0c52"/>
+</svg>
