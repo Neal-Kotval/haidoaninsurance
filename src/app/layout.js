@@ -13,9 +13,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <head>
+      <link
+        rel="icon"
+        href="/favicon.svg"
+        type="image/svg+xml"
+      />
+    </head>
       <body
         className={`${inter.variable} font-sans flex flex-col min-h-screen bg-[var(--background)] text-[var(--foreground)]`}
       >
+        
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />

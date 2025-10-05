@@ -1,0 +1,26 @@
+<svg viewBox="15 25 45 32" xmlns="http://www.w3.org/2000/svg">
+
+  
+  <!-- Background circle -->
+  <!-- <circle cx="37.5" cy="37.5" r="37.5" fill="url(#grad)"/> -->
+  
+  <!-- Main text -->
+  <text x="37.5" y="48" 
+        font-family="Arial, sans-serif" 
+        font-size="32" 
+        font-weight="700" 
+        fill="#0c0c52"
+        text-anchor="middle">
+    HD
+  </text>
+  
+  <!-- Accent line underneath -->
+  <line x1="20" y1="55" x2="55" y2="55" 
+        stroke="#0c0c52" 
+        stroke-width="2"
+        opacity="1"/>
+  
+  <!-- Small decorative dots -->
+  <circle cx="17" cy="55" r="2" fill="#0c0c52" opacity="1"/>
+  <circle cx="58" cy="55" r="2" fill="#0c0c52" opacity="1"/>
+</svg>
