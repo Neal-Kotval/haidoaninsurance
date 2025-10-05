@@ -18,7 +18,7 @@ export default function Home() {
       <Hero />
       <main className="p-10 text-center">
         <h1 className="text-4xl font-extrabold text-[var(--primary)]">
-          Welcome to Hai Doan Financial Services
+          Welcome to Hai Doan Insurance
         </h1>
         <p className="mt-4 text-lg text-[var(--foreground)] max-w-2xl mx-auto">
           Helping you manage your financial future with confidence.

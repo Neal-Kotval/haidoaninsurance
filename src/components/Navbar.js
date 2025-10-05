@@ -20,7 +20,7 @@ export default function Navbar() {
           />
           <div>
             <h1 className="text-2xl font-extrabold text-[var(--primary)] tracking-wide">
-              Hai Doan Financial
+              Hai Doan Insurance
             </h1>
             <p className="text-sm text-gray-600 font-medium -mt-1">
               Affordable American Insurance
