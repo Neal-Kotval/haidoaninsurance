@@ -47,9 +47,9 @@ export default function Hero() {
         <div className="absolute -top-4 -left-4 w-full h-full bg-[var(--primary)] rounded-3xl transform -rotate-2"></div>
 
         <img
-          src="/Insurance-Agent-1.jpg"
+          src="/IMG_4452.JPEG"
           alt="Hai Doan Financial Agent"
-          className="relative w-full h-full object-cover rounded-3xl shadow-lg border-4 border-white"
+          className="relative w-full h-full object-scale-down rounded-3xl shadow-lg border-4 border-white"
         />
       </div>
     </main>
