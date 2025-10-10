@@ -5,6 +5,7 @@
   --foreground: #2c2c2c;   /* Dark gray text */
   --primary: #0c0c52;      /* Navy Blue */
   --secondary: #0f0f67;    /* Medium red */
+  --tertiary: #666363;
 }
 
 @theme inline {

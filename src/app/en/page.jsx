@@ -1,7 +1,6 @@
 "use client";
-import Hero from "@/components/Hero"
-import Navbar from "@/components/Navbar";
-import { sendEmail } from "../../lib/resend";
+import ENHero from "@/components/ENHero"
+import { sendEmail } from "../../../lib/resend";
 import { useState } from "react";
 
 export default function Home() {
@@ -16,13 +15,13 @@ export default function Home() {
   return (
     <div className="bg-[var(--background)] min-h-screen">
       {/* Hero Section */}
-      <Hero />
+      <ENHero />
       <main className="p-10 text-center">
         <h1 className="text-4xl font-extrabold text-[var(--primary)]">
-          Chào mừng đến với Bảo hiểm Hải Đoàn
+          Welcome to Hai Doan Insurance
         </h1>
         <p className="mt-4 text-lg text-[var(--foreground)] max-w-2xl mx-auto">
-          Giúp bạn quản lý tương lai tài chính một cách tự tin.
+          Helping you manage your financial future with confidence.
         </p>
       </main>
 
@@ -32,31 +31,31 @@ export default function Home() {
         className="bg-white/80 rounded-2xl shadow-md mx-10 my-16 p-10 max-w-3xl mx-auto"
       >
         <h2 className="text-3xl font-bold text-[var(--primary)] mb-6 text-center">
-          Liên hệ với chúng tôi
+          Contact Us
         </h2>
         <p className="text-[var(--foreground)] text-center mb-6">
-          Bạn có thắc mắc hoặc cần báo giá? Chúng tôi luôn sẵn sàng hỗ trợ.
+          Have questions or need a quote? We’re here to help.
         </p>
 
         <form action={handleAction} className="flex flex-col space-y-4 max-w-lg mx-auto">
           <input
             type="text"
             name="name"
-            placeholder="Tên của bạn"
+            placeholder="Your Name"
             className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"
             required
           />
           <input
             type="email"
             name="email"
-            placeholder="Email của bạn"
+            placeholder="Your Email"
             className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"
             required
           />
           <textarea
             name="message"
             rows={5}
-            placeholder="Tin nhắn của bạn"
+            placeholder="Your Message"
             className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"
             required
           />
@@ -64,7 +63,7 @@ export default function Home() {
             type="submit"
             className="bg-[var(--primary)] text-white font-semibold py-3 rounded-lg hover:bg-[var(--secondary)] transition-all"
           >
-            Gửi tin nhắn
+            Send Message
           </button>
         </form>
 
@@ -74,7 +73,7 @@ export default function Home() {
 
         <div className="mt-10 text-center text-[var(--foreground)] space-y-2">
           <p>
-            E-mail: {" "}
+            Email:{" "}
             <a
               href="mailto:hdoan@haidoaninsurance.com"
               className="text-[var(--primary)] font-medium"
@@ -82,10 +81,10 @@ export default function Home() {
               hdoan@haidoaninsurance.com
             </a>
           </p>
-          <p>Tế bào: <span className="font-medium">(404) 725-0525</span></p>
+          <p>Cell: <span className="font-medium">(404) 725-0525</span></p>
           <p>Fax: <span className="font-medium">(678) 205-8383</span></p>
           <p>
-            Địa chỉ:{" "}
+            Address:{" "}
             <a
               href="https://www.google.com/maps/search/?api=1&query=5430+Jimmy+Carter+Blvd+Ste+108+Norcross,+GA+30093"
               target="_blank"

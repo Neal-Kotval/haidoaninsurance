@@ -1,27 +1,27 @@
-export default function Hero() {
+export default function ENHero() {
   return (
     <main className="relative bg-[var(--background)] py-20 px-6 sm:px-10 flex flex-col lg:flex-row items-center justify-center gap-10">
       {/* Text Section */}
       <div className="max-w-xl text-center lg:text-left">
         <h1 className="text-5xl sm:text-6xl font-extrabold text-[var(--primary)] leading-tight">
-          Bảo vệ tương lai của bạn một cách tự tin
+          Protect Your Future with Confidence
         </h1>
         <p className="mt-4 text-lg sm:text-xl text-[var(--foreground)]">
-          Bảo hiểm giá cả phải chăng của Mỹ dành cho nhu cầu ô tô, nhà ở, nhân thọ, kinh doanh và thương mại.
+          Affordable American Insurance for Auto, Home, Life, Business, and Commercial needs.
         </p>
 
         <p className="mt-4 text-[var(--foreground)] text-md sm:text-lg">
-          Song ngữ: <span className="font-semibold">Tiếng Anh và Tiếng Việt</span>
+          Bilingual: <span className="font-semibold">English & Vietnamese</span>
         </p>
 
         <div className="mt-6 flex flex-wrap gap-3 justify-center lg:justify-start">
           {[
-            "Bảo hiểm Nhân thọ",
-            "Nhà & Ô tô",
-            "Bảo hiểm Doanh nghiệp",
-            "Bảo hiểm Thương mại",
-            "Lập kế hoạch Tài chính",
-            "Đánh giá Rủi ro",
+            "Life Insurance",
+            "Home & Auto",
+            "Business Coverage",
+            "Commercial Insurance",
+            "Financial Planning",
+            "Risk Assessment"
           ].map((skill) => (
             <span
               key={skill}
@@ -36,7 +36,7 @@ export default function Hero() {
           href="#contact"
           className="mt-8 inline-block bg-[var(--primary)] text-white font-semibold py-4 px-8 rounded-lg shadow-lg hover:bg-[var(--secondary)] transition-colors"
         >
-          Nhận báo giá miễn phí
+          Get a Free Quote
         </a>
       </div>
 
