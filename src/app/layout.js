@@ -3,12 +3,21 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Inter } from "next/font/google";
 
+import { siteInfo } from "../app/data/siteInfo";
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata = {
-  title: "Hai Doan Financial",
-  description: "Insurance and financial services website",
+  title: `Hai Doan Financial - ${siteInfo.descriptionVN}`,
+  description: siteInfo.descriptionVN,
+  openGraph: {
+    title: `Hai Doan Financial - ${siteInfo.descriptionVN}`,
+    description: siteInfo.descriptionVN,
+    url: siteInfo.url,
+    images: [{ url: siteInfo.logo, width: 600, height: 600, alt: siteInfo.name }],
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
