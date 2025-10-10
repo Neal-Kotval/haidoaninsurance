@@ -1,5 +1,6 @@
 "use client";
 import ENHero from "@/components/ENHero"
+import ENFooter from "@/components/ENFooter";
 import { sendEmail } from "../../../lib/resend";
 import { useState } from "react";
 
@@ -96,6 +97,7 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <ENFooter />
     </div>
   );
 }
